@@ -31,7 +31,7 @@ const Header = () => {
                         className='logo'
                     >
                         <img
-                            src='https://tanlilun.github.io/port-folio-template/images/logo.svg'
+                            src='/images/logo.svg'
                             width={40}
                             height={40}
                             alt="Tan Li Lun"
