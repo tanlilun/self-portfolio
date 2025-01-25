@@ -31,7 +31,7 @@ const Header = () => {
                         className='logo'
                     >
                         <img
-                            src='/images/logo.svg'
+                            src={`${import.meta.env.VITE_PATH}/images/logo.svg`}
                             width={40}
                             height={40}
                             alt="Tan Li Lun"
