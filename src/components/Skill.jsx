@@ -9,15 +9,15 @@
 import SkillCard from "./SkillCard";
 
 const skillItem = [
+    // {
+    //     imgSrc: `${import.meta.env.VITE_PATH}/images/figma.svg`,
+    //     label: 'Figma',
+    //     desc: 'Design tool'
+    // },
     {
-        imgSrc: `${import.meta.env.VITE_PATH}/images/figma.svg`,
-        label: 'Figma',
-        desc: 'Design tool'
-    },
-    {
-        imgSrc: `${import.meta.env.VITE_PATH}/images/css3.svg`,
-        label: 'CSS',
-        desc: 'User Interface'
+        imgSrc: `${import.meta.env.VITE_PATH}/images/react.svg`,
+        label: 'React',
+        desc: 'Framework'
     },
     {
         imgSrc: `${import.meta.env.VITE_PATH}/images/javascript.svg`,
@@ -25,30 +25,35 @@ const skillItem = [
         desc: 'Interaction'
     },
     {
-        imgSrc: `${import.meta.env.VITE_PATH}/images/nodejs.svg`,
-        label: 'NodeJS',
-        desc: 'Web Server'
-    },
-    {
-        imgSrc: `${import.meta.env.VITE_PATH}/images/expressjs.svg`,
-        label: 'ExpressJS',
-        desc: 'Node Framework'
-    },
-    {
-        imgSrc: `${import.meta.env.VITE_PATH}/images/mongodb.svg`,
-        label: 'MongoDB',
-        desc: 'Database'
-    },
-    {
-        imgSrc: `${import.meta.env.VITE_PATH}/images/react.svg`,
-        label: 'React',
-        desc: 'Framework'
+        imgSrc: `${import.meta.env.VITE_PATH}/images/css3.svg`,
+        label: 'CSS',
+        desc: 'User Interface'
     },
     {
         imgSrc: `${import.meta.env.VITE_PATH}/images/tailwindcss.svg`,
         label: 'TailwindCSS',
         desc: 'User Interface'
     },
+    {
+        imgSrc: `${import.meta.env.VITE_PATH}/images/nodejs.svg`,
+        label: 'NodeJS',
+        desc: 'Web Server'
+    },
+    {
+        imgSrc: `${import.meta.env.VITE_PATH}/images/mysql.svg`,
+        label: 'MySQL',
+        desc: 'Database'
+    },
+    // {
+    //     imgSrc: `${import.meta.env.VITE_PATH}/images/mongodb.svg`,
+    //     label: 'MongoDB',
+    //     desc: 'Database'
+    // },
+    // {
+    //     imgSrc: `${import.meta.env.VITE_PATH}/images/expressjs.svg`,
+    //     label: 'ExpressJS',
+    //     desc: 'Node Framework'
+    // },
 ];
 
 const Skill = () => {

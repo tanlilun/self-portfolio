@@ -22,40 +22,40 @@ import ReviewCard from "./ReviewCard";
 
 const reviews = [
     {
-        content: 'Exceptional web development! Delivered a seamless, responsive site with clean code and great UX.',
-        name: 'Sophia Ramirez',
+        content: 'Tan is ambitious, quick to learn, and incredibly driven. His ability to take on challenges and find resources on his own shows his passion for growth and success.',
+        name: 'Yvonne Gan',
         imgSrc: `${import.meta.env.VITE_PATH}/images/people-1.jpg`,
-        company: 'PixelForge'
+        company: 'JGCC'
     },
     {
-        content: 'Impressive work! Fast loading times, intuitive design, and flawless backend integration. Highly recommend.',
-        name: 'Ethan Caldwell',
+        content: 'Tan demonstrated strong leadership in our group project, always staying calm and resourceful under pressure. His self-driven attitude and passion for learning made him an invaluable team member.',
+        name: 'Billy Wwong Chen Chee',
         imgSrc: `${import.meta.env.VITE_PATH}/images/people-2.jpg`,
-        company: 'NexaWave'
+        company: 'SLB'
     },
     {
-        content: 'Outstanding developer! Built a robust site with perfect functionality. Efficient and detail-oriented.',
-        name: 'Liam Bennett',
+        content: 'As a project leader, he was responsible, focused, and organized. He consistently motivated the team, ensuring clear communication and timely completion of tasks.',
+        name: 'Guok Choo Ling',
         imgSrc: `${import.meta.env.VITE_PATH}/images/people-3.jpg`,
-        company: 'CodeCraft'
+        company: 'JGCC'
     },
     {
-        content: 'Creative and skilled! Produced a modern, user-friendly site that exceeded expectations. Great communication.',
-        name: 'Noah Williams',
+        content: 'He always took the initiative to find solutions on his own and led our group with great responsibility. His dedication and problem-solving skills will make him a great asset in any software engineering role.',
+        name: 'Aaron Wong',
         imgSrc: `${import.meta.env.VITE_PATH}/images/people-4.jpg`,
-        company: 'BrightWeb'
+        company: 'JGCC'
     },
     {
-        content: 'Professional work! Delivered on time, with a polished design and smooth user experience. Top-notch developer.',
-        name: 'Ava Thompson',
+        content: 'Li Lun was always committed to excellence, showcasing his ability to research and learn independently, which will serve him well in his software engineering career.',
+        name: 'Yeap Chin Hoong',
         imgSrc: `${import.meta.env.VITE_PATH}/images/people-5.jpg`,
-        company: 'TechMosaic'
+        company: 'ViTrox'
     },
     {
-        content: 'Excellent project execution! High-quality code, responsive design, and exceptional problem-solving skills.',
-        name: 'Jonathan',
+        content: 'Tan is incredibly hardworking and quickly mastered software development concepts. Always provide valuable insights.',
+        name: 'Aman Shabilin',
         imgSrc: `${import.meta.env.VITE_PATH}/images/people-6.jpg`,
-        company: 'Skyline Digital'
+        company: 'Solution Engineering'
     }
 ];
 
@@ -80,7 +80,7 @@ const Review = () => {
         >
             <div className="container">
                 <h2 className="headline-2 mb-8 reveal-up">
-                    What our customers say
+                    What my collaborators say
                 </h2>
                 <div className="scrub-slide flex items-stretch gap-3 w-fit">
                     {reviews.map(({ content, name, imgSrc, company }, key) => (

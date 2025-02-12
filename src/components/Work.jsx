@@ -11,39 +11,40 @@ import ProjectCard from "./ProjectCard";
 const works = [
     {
         imgSrc: `${import.meta.env.VITE_PATH}/images/project-1.jpg`,
-        title: 'Full stack music app',
-        tags: ['API', 'MVC', 'Development'],
-        projectLink: 'https://musify-5al0.onrender.com/'
+        title: 'Free Portfolio Template',
+        tags: ['API', 'SPA'],
+        // tags: ['API', 'MVC', 'Development'],
+        projectLink: 'https://github.com/tanlilun/port-folio-template'
     },
     {
         imgSrc: `${import.meta.env.VITE_PATH}/images/project-2.jpg`,
-        title: 'Free stock photo app',
+        title: 'Game Listing App',
         tags: ['API', 'SPA'],
-        projectLink: 'https://pixstock-official.vercel.app/'
+        projectLink: 'https://github.com/tanlilun/Game-Listing-App'
     },
     {
         imgSrc: `${import.meta.env.VITE_PATH}/images/project-3.jpg`,
-        title: 'Recipe app',
-        tags: ['Development', 'API'],
-        projectLink: ''
+        title: 'iPhone 15 Website',
+        tags: ['SPA', 'GSAP'],
+        projectLink: 'https://github.com/tanlilun/iPhone15Website'
     },
     {
         imgSrc: `${import.meta.env.VITE_PATH}/images/project-4.jpg`,
-        title: 'Real state website',
+        title: 'SOLTWIN FD20 & HE350',
         tags: ['Web-design', 'Development'],
-        projectLink: 'https://github.com/codewithsadee-org/wealthome'
+        projectLink: 'https://www.solutionengiverse.com.my/'
     },
     {
         imgSrc: `${import.meta.env.VITE_PATH}/images/project-5.jpg`,
-        title: 'eCommerce website',
-        tags: ['eCommerce', 'Development'],
-        projectLink: 'https://github.com/codewithsadee/anon-ecommerce-website'
+        title: 'SOLTWIN AP01 & AP02',
+        tags: ['Web-design', 'Development'],
+        projectLink: 'https://www.solutionengiverse.com.my/'
     },
     {
         imgSrc: `${import.meta.env.VITE_PATH}/images/project-6.jpg`,
-        title: 'vCard Personal portfolio',
+        title: 'SOLTWIN TH01',
         tags: ['Web-design', 'Development'],
-        projectLink: 'https://github.com/codewithsadee/vcard-personal-portfolio'
+        projectLink: 'https://www.solutionengiverse.com.my/'
     },
 ];
 
