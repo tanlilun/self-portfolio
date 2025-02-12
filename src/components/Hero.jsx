@@ -45,7 +45,7 @@ const Hero = () => {
                         <ButtonPrimary
                             label='Download CV'
                             icon='download'
-                            href={`${import.meta.env.VITE_PATH}/files/Resume_Tan Li Lun_Front_End.pdf`}
+                            href={`${import.meta.env.VITE_PATH}/files/Resume_Tan Li Lun_Software.pdf`}
                         // target = '_self',
                         // classes
                         />
